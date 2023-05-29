@@ -1,2 +1,2 @@
 # ReadMeCloud
-Criação de um web site com curriculos  que será realizado por meio da nuvem em AWS   
+Criação de um web site com curriculos  que será armazemando na nuvem com serviços da AWS   
