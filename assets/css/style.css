@@ -1,0 +1,122 @@
+:root {
+    --blue-dark: #25316D;
+    --blue-light: #97D2EC;
+    --gray: #5F6F94;
+    --yellow: #FEF5AC;
+    --orange: #ce5d30;
+    --gray-dark: #343A40;
+    --orange-light: #cb866d;
+    --gray-ligth: #eaedf5;
+}
+
+html {
+    height: 200vh;
+}
+
+
+main {
+    margin-top: 0px;
+}
+
+.container-header {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 40px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: 9999;
+}
+
+header a,
+h1 {
+    color: var(--orange);
+}
+
+header a {
+    box-shadow: 0 0 3px rgba(248, 128, 58, 0.804);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+header.scrolling {
+    background-color: var(--orange);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 4%;
+}
+
+header.scrolling a,
+header.scrolling h1 {
+    color: var(--gray-ligth);
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+header ul li a {
+    color: var(--orange-light);
+    font-size: 20px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(/assets/img/fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: var(--orange);
+}
+
+.banner span {
+    color: var(--blue-light);
+    font-size: 30px;
+}
+
+.main-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.nuvem-sobre {
+    width: 250px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 15px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--orange);
+    color: var(--gray-ligth);
+    padding: 20px 0;
+    text-align: center;
+}
