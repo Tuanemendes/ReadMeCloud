@@ -100,8 +100,10 @@ header ul li a {
 
 .main-title {
     text-align: center;
-    margin: 40px 0;
+    margin: 40px 0 0 5px;
+    padding: 40px;
 }
+
 
 .nuvem-sobre {
     width: 250px;
@@ -120,3 +122,5 @@ header ul li a {
     padding: 20px 0;
     text-align: center;
 }
+
+
