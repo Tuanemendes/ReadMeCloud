@@ -18,7 +18,7 @@
 <h2>💻 Descrição do Projeto</h2>
 
 <p>
-Criação de um web site com curriculos  que será armazemando na nuvem com serviços da AWS   
+Criação de um web site de curriculos para estudantes em cloud , onde será realizado testes para armazenar na nuvem AWS, fazer a analise de arquitetura  e calcular o preço para subir um website estatico utilizando os serviços da AWS.    
 </p>
 
 <h2>💻Tecnologias Utilizadas</h2>
