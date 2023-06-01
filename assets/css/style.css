@@ -53,7 +53,7 @@ header a {
 header.scrolling {
     background-color: var(--orange);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px 4%;
+    padding: 10px 4%;
 }
 
 header.scrolling a,
@@ -141,7 +141,8 @@ header ul li a {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: var(--orange); /* Altere para a cor desejada */
+    background-color: var(--gray-ligth);
+    /* Altere para a cor desejada */
     opacity: 0.8;
     margin-left: 30px;
     margin-right: 30px;

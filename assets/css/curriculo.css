@@ -3,10 +3,10 @@
     --blue-light: #97D2EC;
     --gray: #5F6F94;
     --yellow: #FEF5AC;
-    --orange:#ce5d30;
-    --gray-dark:#343A40;
-    --orange-light:#cb866d;
-    --gray-ligth:#eaedf5;
+    --orange: #ce5d30;
+    --gray-dark: #343A40;
+    --orange-light: #cb866d;
+    --gray-ligth: #eaedf5;
 }
 
 html {
@@ -38,20 +38,20 @@ header {
     left: 0;
     transition: .5s;
     z-index: 9999;
-    
+
 }
 
 header a,
 h2 {
     color: var(--orange);
-    
+
 }
 
 header.scrolling {
-    background-color: var(--orange) ;
+    background-color: var(--orange);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px 1%;
-    
+    padding: 10px 1%;
+
 }
 
 header.scrolling a,
