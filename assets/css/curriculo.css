@@ -3,7 +3,7 @@
     --blue-light: #97D2EC;
     --gray: #5F6F94;
     --yellow: #FEF5AC;
-    --orange: #ce5d30;
+    --orange: #bd5d38;
     --gray-dark: #343A40;
     --orange-light: #cb866d;
     --gray-ligth: #eaedf5;
@@ -73,3 +73,55 @@ header ul li a {
     font-size: 20px;
     text-decoration: none;
 }
+
+nav .nav-link {
+    color: var(--orange);
+}
+
+nav .nav-link:hover {
+    color: var(--orange-light);
+}
+
+.text-color {
+    color: var(--orange);
+}
+
+a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--orange-light);
+}
+
+.subheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #bd5d38;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: var(--orange) !important;
+    font-weight: 500;
+}
+

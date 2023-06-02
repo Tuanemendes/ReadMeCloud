@@ -3,7 +3,7 @@
     --blue-light: #97D2EC;
     --gray: #5F6F94;
     --yellow: #FEF5AC;
-    --orange: #ce5d30;
+    --orange: #bd5d38;
     --gray-dark: #343A40;
     --orange-light: #cb866d;
     --gray-ligth: #eaedf5;
@@ -99,6 +99,8 @@ header ul li a {
 }
 
 .main-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     text-align: center;
     margin: 40px 0 0 5px;
     padding: 40px;
@@ -106,9 +108,9 @@ header ul li a {
 
 
 .nuvem-sobre {
-    width: 250px;
+    width: 300px;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 30px 20px 20px 0;
     border-radius: 15px;
 }
 
@@ -161,6 +163,10 @@ header ul li a {
     height: 10px;
 }
 
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #354d64;
+}
 
 
 

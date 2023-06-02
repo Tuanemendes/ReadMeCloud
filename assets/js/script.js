@@ -9,7 +9,7 @@ window.addEventListener('scroll', function () {
 // Carousel
 var carousel = document.getElementById('carousel');
 var carouselInstance = new bootstrap.Carousel(carousel, {
-    interval: 5000,
+    interval: 6000,
     slidesPerView: 3, 
     wrap: true 
 });
