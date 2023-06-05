@@ -1,5 +1,3 @@
-
-
 window.addEventListener('scroll', function () {
   var header = document.querySelector('#header');
   header.classList.toggle('scrolling', window.scrollY > 0);
@@ -14,22 +12,20 @@ var carouselInstance = new bootstrap.Carousel(carousel, {
   wrap: true
 });
 
-
 function downloadPDF() {
   var element = document.getElementById('container-pdf');
+  var opt = {
+    margin: 0.23,
+    filename: 'myfile.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2 },
+    enableLinks: true,
+    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' },
+    pagebreak: { before: '.beforeClass', after: ['#after1', '#after2'], avoid: 'img' }
+  };
 
-  html2canvas(element).then(function (canvas) {
-    var imgData = canvas.toDataURL('image/png');
-    var doc = new jsPDF('p', 'mm', 'a4');
+  html2pdf().set(opt).from(element).save();
 
-    var margin = 13;
-
-    var imgWidth = doc.internal.pageSize.getWidth() - (margin * 2);
-    var imgHeight = (canvas.height * imgWidth) / canvas.width;
-
-    doc.addImage(imgData, 'PNG', margin, margin, imgWidth, imgHeight);
-    doc.save('curriculo.pdf');
-  });
 }
 
 function toggleNav() {

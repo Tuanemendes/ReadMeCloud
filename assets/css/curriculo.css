@@ -13,8 +13,6 @@ html {
     height: 300vh;
 }
 
-body {}
-
 main {
     margin-top: 200px;
 }
@@ -38,7 +36,6 @@ header {
     left: 0;
     transition: .5s;
     z-index: 9999;
-
 }
 
 header a,
@@ -52,12 +49,10 @@ header a,
     padding: 10px 20px;
     font-weight: 500;
     color: var(--orange) !important;
-
 }
 
 .btn-pdf:hover {
     background-color: var(--orange-light);
-    color: var(--gray-ligth);
     border: 1px solid var(--orange);
     border-radius: 5px;
 }
