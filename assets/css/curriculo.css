@@ -42,9 +42,22 @@ header {
 }
 
 header a,
-h2 {
-    color: var(--orange);
+.custom-navbar-brand {
+    color: var(--orange) !important;
+}
 
+.btn-pdf {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--orange) !important;
+
+}
+
+.btn-pdf:hover {
+    background-color: var(--gray-ligth);
+    color: var(--gray-ligth);
 }
 
 header.scrolling {
@@ -55,8 +68,13 @@ header.scrolling {
 }
 
 header.scrolling a,
-header.scrolling h2 {
-    color: var(--gray-ligth);
+.custom-navbar-brand {
+    color: var(--gray-ligth) !important;
+}
+
+header.scrolling .btn-pdf {
+ 
+    color: var(--orange);
 }
 
 header ul {
@@ -76,6 +94,7 @@ header ul li a {
 
 nav .nav-link {
     color: var(--orange);
+    text-align: center;
 }
 
 nav .nav-link:hover {
@@ -130,19 +149,8 @@ a:hover {
     color: #495057;
 }
 
-.container-btn {
-    position: absolute;
-    top: 20%;
-    right: 30px;
-    transform: translateY(-50%);
-}
-
-.btn-pdf {
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-weight: 500;
-    transition: .5s;
-
-
+@media (max-width: 990px) {
+    main {
+        padding-top: 220px;
+    }
 }
