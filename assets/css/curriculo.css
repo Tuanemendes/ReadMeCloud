@@ -56,8 +56,10 @@ header a,
 }
 
 .btn-pdf:hover {
-    background-color: var(--gray-ligth);
+    background-color: var(--orange-light);
     color: var(--gray-ligth);
+    border: 1px solid var(--orange);
+    border-radius: 5px;
 }
 
 header.scrolling {
@@ -73,7 +75,7 @@ header.scrolling a,
 }
 
 header.scrolling .btn-pdf {
- 
+
     color: var(--orange);
 }
 

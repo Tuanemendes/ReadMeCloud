@@ -15,7 +15,6 @@ var carouselInstance = new bootstrap.Carousel(carousel, {
 });
 
 
-
 function downloadPDF() {
   var element = document.getElementById('container-pdf');
 
@@ -33,12 +32,9 @@ function downloadPDF() {
   });
 }
 
-
-// Função para exibir ou ocultar a lista de navegação ao clicar no botão do menu
 function toggleNav() {
   var navList = document.getElementById('nav-list');
   navList.style.display = navList.style.display === 'block' ? 'none' : 'block';
 }
 
-// Adiciona um evento de clique ao botão do menu para alternar a exibição da lista de navegação
 document.getElementById('menu-toggle').addEventListener('click', toggleNav);
