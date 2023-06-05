@@ -126,6 +126,23 @@ a:hover {
 }
 
 .dev-icons {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #495057;
+}
+
+.container-btn {
+    position: absolute;
+    top: 20%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+.btn-pdf {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: .5s;
+
+
 }
