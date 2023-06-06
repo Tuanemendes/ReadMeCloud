@@ -10,7 +10,7 @@
 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Conteudo de Estudos](#conteudo-de-estudos)
+* [Conteudo de Estudos](#detalhes-do-projeto)
 * [Desenvolvido Por](#desenvolvido-por)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
 
@@ -34,10 +34,11 @@ Criação de um web site de curriculos para estudantes em cloud , onde será rea
 
           
 
-<h2>💻Conteudo de Estudos</h2>
+<h2>💻Detalhes do Projeto</h2>
 
 <p>
 
+Link  para acessar a aplicação em funcionamento -> [ReadMeCloud](https://read-me-cloud-q7clfcb08-tuanemendes.vercel.app/) 
 
    
 </p>
