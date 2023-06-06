@@ -10,7 +10,7 @@
 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Conteudo de Estudos](#detalhes-do-projeto)
+* [Detalhes do Projeto](#detalhes-do-projeto)
 * [Desenvolvido Por](#desenvolvido-por)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
 
