@@ -10,14 +10,11 @@
 }
 
 html {
-    height: 200vh;
-    
+    height: 200vh;  
 }
-
 
 main {
     margin-top: 0px;
-    
 }
 
 .container-header {
@@ -46,10 +43,8 @@ h1 {
     color: var(--orange);
 }
 
-header a {
-    
-   margin: 2px;
-    
+header a { 
+   margin: 2px; 
 }
 
 header.scrolling {
@@ -79,10 +74,7 @@ header ul li a {
     transition: .5s;
 }
 nav{
- 
     margin: 20px;
-   
-   
 }
 
 .banner {
@@ -136,8 +128,7 @@ nav{
 .carousel-control-next {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    
+    transform: translateY(-50%); 
 }
 
 button.carousel-control-prev {
@@ -149,7 +140,6 @@ button.carousel-control-prev {
     right: -50px;
     padding: 10px;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
